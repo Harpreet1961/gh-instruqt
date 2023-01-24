@@ -1,0 +1,5 @@
+echo $Test_Secrets >> /root/test.txt
+
+useradd test_user -p $(cat /root/test.txt)
+
+agent variable set url $HOSTNAME.$_SANDBOX_ID.instruqt.io

@@ -1,0 +1,10 @@
+version: "3"
+containers:
+- name: container
+  image: europe-west1-docker.pkg.dev/instruqt-mongodb/instruqt-images/instruqt-mongosh-packer:0.3
+  shell: /bin/bash
+  memory: 256
+virtualmachines:
+- name: testnddev
+  image: ubuntu-os-cloud/ubuntu-2004-lts
+  machine_type: n1-standard-1

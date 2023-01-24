@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euxo pipefail
+
+echo "Checking if the folder instruqt exists."
+
+if [ -f /root/test.txt ]
+then
+    echo "The File  exists"
+else
+    fail-message "There is no File exists, did you create it?"
+fi
+
+

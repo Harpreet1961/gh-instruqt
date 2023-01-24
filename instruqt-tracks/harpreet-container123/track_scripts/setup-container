@@ -1,0 +1,5 @@
+#!/bin/bash
+
+agent variable set INSTRUQT_TEST_VAR "I love pie"
+
+# echo 'set +o history' >> ~/.bashrc
