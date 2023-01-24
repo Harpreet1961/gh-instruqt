@@ -1,6 +1,6 @@
-slug: harpreet-container123
-id: b8ifvon389hq
-title: Harpreet-Sandbox
+slug: harpreet-container123-dev
+id: rzkytkxmygzb
+title: DEV - Harpreet-Sandbox
 teaser: Get started quickly with a single container-based sandbox host
 description: Get started quickly with a container-based sandbox host. Choose a container
   when you need a fast, lightweight Linux system.
@@ -8,8 +8,10 @@ icon: https://cdn.instruqt.com/assets/templates/ubuntu.png
 level: beginner
 tags:
 - Test Idle Time Out
+- dev
 owner: instruqt-demos
 developers:
 - harpreet.singh1@xebia.com
-checksum: "10079693229864206920"
+maintenance: true
+checksum: "3920599001106615487"
 idle_timeout: 300
